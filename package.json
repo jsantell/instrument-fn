@@ -1,0 +1,15 @@
+{
+  "name": "instrument-fn",
+  "version": "1.0.0",
+  "description": "Instrument functions with a wrapper, exposing caller, arguments and result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jordan Santell",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
