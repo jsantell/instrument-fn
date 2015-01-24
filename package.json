@@ -1,6 +1,6 @@
 {
   "name": "instrument-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instrument functions with a wrapper, exposing caller, arguments and result.",
   "main": "index.js",
   "scripts": {

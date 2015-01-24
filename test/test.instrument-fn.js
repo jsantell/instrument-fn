@@ -85,4 +85,13 @@ describe("instrument-fn", function () {
     var user = new User();
     user.setName("j");
   });
+
+  it("returns the original return value", function () {
+    var User = createObj();
+    instrument(User.prototype, function () {});
+    var user = new User();
+    user.setName("j");
+    var ret = user.getName();
+    expect(ret).to.be.equal("j");
+  });
 });

@@ -34,6 +34,7 @@ function instrument (obj, wrapperFn, methods) {
         result: result
       };
       wrapperFn(data);
+      return result;
     };
   });
 }
